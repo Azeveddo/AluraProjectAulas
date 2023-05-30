@@ -1,0 +1,125 @@
+header {
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-radius: 8%;
+  background-color: lightgray;
+
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: black 3px solid;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  animation: rainbow 3s infinite linear;
+  transform: scale(1.02);
+}
+
+.litransformed {
+  animation: rainbow 4s infinite linear;
+  transform: scale(1.02);
+}
+
+.produtos h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.produto_description {
+  font-size: 18px;
+
+}
+
+.produto_preco {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background: url("https://barbearia-alura-sigma.vercel.app/img/bg.jpg");
+  padding: 40px 0;
+}
+.copyright{
+  color: white;
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+@keyframes rainbow {
+  0% {
+    border-color: darkred;
+  }
+
+  14% {
+    border-color: blue;
+  }
+
+  28% {
+    border-color: indigo;
+  }
+
+  42% {
+    border-color: darkblue;
+  }
+
+  57% {
+    border-color: blue;
+  }
+
+  71% {
+    border-color: indigo;
+  }
+
+  85% {
+    border-color: darkblue;
+  }
+
+  100% {
+    border-color: red;
+  }
+}
